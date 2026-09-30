@@ -1,0 +1,24 @@
+{
+  "lang": "en-us",
+  "name": "MyAnimeList",
+  "short_name": "MAL",
+  "description": "A basic web app for creating and managing anime list.",
+  "start_url": "./",
+  "background_color": "#000a1b",
+  "theme_color": "#000a1b",
+  "orientation": "any",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "./res/icon-512.png",
+      "sizes": "512x512",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "./res/icon-128.png",
+      "sizes": "128x128",
+      "purpose": "maskable any"
+    }
+  ]
+  
+}
