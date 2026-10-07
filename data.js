@@ -39,7 +39,7 @@ let data = {
     [27, "Shikimori's not just a cutie", 2022, "November 2023", 12, "https://m.media-amazon.com/images/M/MV5BYjhkY2EyYjEtYjhlNS00ZmRiLWFmNjktNjJjNTJmYWQ2ZjMyXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg", ["Rom-com", "School"], 7.5],
     [28, "The dreaming boy is a realist", 2023, "November 2023", 12, "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRye0mjfz92Zwh3CE786KqL1aDs-MNhN4FVokONaIQbtkd7dQuz", ["Rom-com", "School"], 7.4],
     [29, "Girlfriend, Girlfriend", 2021, "November 2023", 12, "https://cdn.myanimelist.net/images/anime/1713/117119.jpg", ["Harem", "Rom-com", "School"], 6.5],
-    [30, "Oregairu", 2013, "November 2023", 41, "https://i0.wp.com/img1.ak.crunchyroll.com/i/spire2/320673efcacdbdb0d6222156f8d797ce1476015938_full.jpg", ["Drama", "Romance"], 9.5, true],
+    [30, "Oregairu", 2013, "November 2023", 41, "https://drive.google.com/thumbnail?id=1i2pdAvD_pNWaPWPEWvy-qBSWE1m_ZkH-&sz=w1080", ["Drama", "Romance"], 9.5, true],
     [31, "Plastic Memories", 2015, "February 2024", 13, "https://m.media-amazon.com/images/M/MV5BZmM1Yjc3MjItMjk4NC00NmEwLWIyOWYtMmM4ODU5NDM0MDZmXkEyXkFqcGc@._V1_.jpg", ["Drama", "Romance", "Emotional"], 10, true, true],
     [32, "Don't Toy with me, Miss Nagatoro", 2021, "February 2024", 12, "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCssk5JH09bkCWaHDYjSpyS0R0p9EcIb-Ubg&usqp=CAU", ["Rom-com", "School"], 7],
     [33, "The Day I became a God", 2020, "February 2024", 12, "https://imgsrv.crunchyroll.com/cdn-cgi/image/format=auto,fit=contain,width=480,height=720,quality=85/catalog/crunchyroll/0bce41b36c2835bb3ab8f5ee1fac00fa.jpe", ["Drama", "Supernatural", "Romance", "Emotional"], 10, true, true],
@@ -55,14 +55,14 @@ let data = {
     [42, "The Daily Life of Immortal King", 2020, "April 2024", 40, "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2CPweVbDEx2CLv6FlBZyKHDeYUrhbHVBkY7tEX2K-m7_CtJEH855bt6Ab&s=10", ["Rom-com"], 5.8],
     [43, "Your Lie in April", 2014, "April 2024", 23, "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyVsa0jVUyCvyYRNNbn68djt29e6-71fOdxgF0RMQ0G48QuIDSd0ib0YHX&s=10000_.jpg", ["Music", "Drama", "Romance"], 7],
     [44, "My Dress-Up Darling", 2022, "April 2024", 12, "https://m.media-amazon.com/images/I/91z5aNQoudL._AC_UF1000,1000_QL80_DpWeblab_.jpg", ["Rom-com", "School"], 7.2],
-    [45, "Charlotte", 2015, "May 2024", 14, "https://m.media-amazon.com/images/M/MV5BNDYwNjdjYjktOWMyYS00NmNlLTgwYWItYzNjZGNmNjFjNDk2L2ltYWdlXkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_.jpg", ["Supernatural", "Romance", "Drama"], 9.6, true],
+    [45, "Charlotte", 2015, "May 2024", 14, "https://drive.google.com/thumbnail?id=1V-LTiitr2cpOJiOaP2mLkCtpthxFUbJr&sz=w1920", ["Supernatural", "Romance", "Drama"], 9.6, true],
     ["M3", "A Silent Voice", 2016, "02 May 2024", 6, "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6arlgp-K49FLtI1P0eL7VInweUuTdkBgAdXcO6QHgfUDtePOdIXD2jV7z&s=10", ["Drama"], 10, true, true],
     ["M4", "I Want to Eat Your Pancreas", 2018, "02 May 2024", 6, "https://miro.medium.com/v2/resize:fit:1400/0*-39YDA5ghsLXTO7X", ["Drama"], 8],
     [46, "Angel Beats!", 2010, "May 2024", 15, "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROxx7O_Mr5oUz21_n-Ap6eW1MchcqZX5WG_liwv6WiTpkH8qjZq8R-zouF&s=10", ["Comedy", "School", "Psychological"], 8],
     [47, "Oreshura", 2013, "May 2024", 13, "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPvfxRxrKUZzkSYaR_Q_dAwmkpycYxA3Ct3lzu2yWBPCkaS9jAzZqiccJu&s=10", ["Harem", "School"], 1.2],
     [48, "Akashic Records of Bastard Magic Instructor", 2017, "May 2024", 12, "https://m.media-amazon.com/images/M/MV5BNGM3YWMxMzQtNmFiMS00NDczLWJkMjctODJjZWIwMmIwYzNiXkEyXkFqcGdeQXVyMjI5MjU5OTI@._V1_.jpg", ["Magic", "Fantasy"], 8],
     [49, "Anohana: The Flower We Saw That Day", 2011, "May 2024", 11, "https://m.media-amazon.com/images/M/MV5BNTc1NzEwOTU0MV5BMl5BanBnXkFtZTgwNTMxMzY5MDE@._V1_.jpg", ["Supernatural", "Emotional", "Drama"], 8.3],
-    [50, "Mushoku Tensei", 2021, "May 2024", 63, "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDtVH-r28ww8YHNFExF7nu_vyiQ7W8QGhpf-qKH26wWCyajN4wkkWYngk&s=10", ["Isekai", "Drama", "Adventure"], 9.4, true],
+    [50, "Mushoku Tensei", 2021, "May 2024", 63, "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDtVH-r28ww8YHNFExF7nu_vyiQ7W8QGhpf-qKH26wWCyajN4wkkWYngk&s=10", ["Isekai", "Drama", "Adventure", "Harem"], 9.4, true],
     [51, "An Archdemon's Dilemma: How to Love Your Elf Bride", 2024, "May 2024", 12, "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDZH-gndJ82o828-52Jrha3gwOLZ56jdsDIyDCFWL9aZkisOwMrj4WuLrT&s=10", ["Magic", "Rom-com"], 7.2],
     [52, "Blue Spring Ride", 2014, "May 2024", 14, "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaSN-3PzLnVN9u2nvdRFEpEOTFAdcNPVt1kv5gwU2cvxrA3XaPB6jPvNkE&s=10", ["Romance", "Slice of life"], 7],
     [53, "Chillin' in Another World With Level 2 Super Cheat Powers", 2024, "May 2024", 12, "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJkXoRANAOFfifqgxbJ04XHNyTXvLAemWnR3djpU_jMELiRY7K-rITuxOq&s=10", ["Isekai", "Rom-com"], 6.2],
@@ -135,7 +135,8 @@ let data = {
     [101, "Love Unseen Beneath the Clear Night Sky", 2026, "July 2026", 12, "https://m.media-amazon.com/images/M/MV5BZDZlNjAwYmYtNjU0Yi00NTNmLThiMDQtNTc2MmJlZmVhYWM4XkEyXkFqcGc@._V1_.jpg", ["Romance"], 8.3],
     [102, "Sakamoto Days", 2025, "August 2026", 22, "https://m.media-amazon.com/images/M/MV5BNTM4MmZiNjEtOGY0MC00MGM0LTkxZjEtODUxMmJmZWEwOWU3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg", ["Action", "Supernatural"], 7],
     [103, "Arifureta: From Commonplace to World's Strongest", 2019, "September 2026", 41, "https://m.media-amazon.com/images/M/MV5BMTBmMGI0ZDMtMDA3Zi00OTFiLTk4YTktNzAzZjAzNjJjMWVkXkEyXkFqcGc@._V1_.jpg", ["Isekai", "Harem"], 7.2],
-    [104, "Trapped in a Dating Sim: The World of Otome Game is Tough for Mobs", 2022, "September 2026", 24, "https://www.acmodasi.in/amdb/images/tv/w1280/13/95/trapped-in-a-dating-sim-the-world-of-otome-games-is-tough-for-mobs-2022-1224754.webp", ["Isekai", "Harem", "School", "Fantasy"], 8.1]
+    [104, "Trapped in a Dating Sim: The World of Otome Game is Tough for Mobs", 2022, "September 2026", 24, "https://www.acmodasi.in/amdb/images/tv/w1280/13/95/trapped-in-a-dating-sim-the-world-of-otome-games-is-tough-for-mobs-2022-1224754.webp", ["Isekai", "Harem", "School", "Fantasy"], 8.1],
+    [105, "Id: Invaded", 2020, "October 2026", 13, "https://m.media-amazon.com/images/M/MV5BZWIwMmUwZGUtNTJiNy00Y2M1LTgxYjItODdhYTc3OGUxMGNkXkEyXkFqcGc@._V1_.jpg", ["Sci-Fi", "Mystery", "Psychological"], 7.8]
 
   ],
   
@@ -143,7 +144,7 @@ let data = {
   ecchi: [
     [1, "Why the hell are you here, teacher?", 2019, "April 2023", 6, "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRoZ_czYMT9A32FKeF4w_rLuDFq9IpJGRxNAiu6LxJZVzatANFD", ["Comedy", "School"], 7],
     [2, "To love ru", 2008, "April 2023", 81, "https://m.media-amazon.com/images/M/MV5BOGVhMWYyN2MtZDMyMC00MWU3LThhYWYtNGJkMTczZmU3ZGYyXkEyXkFqcGc@._V1_.jpg", ["Comedy", "School", "Supernatural", "Harem"], 8.7],
-    [3, "Sky of Connection", 2010, "April 2023", 12, "https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Yosuganosora_package.jpg/250px-Yosuganosora_package.jpg", ["Drama", "Romance"], 8.3],
+    [3, "Sky of Connection", 2010, "April 2023", 12, "https://i.pinimg.com/736x/d1/0f/af/d10faf76ae5b6dc6964b8b2870f838b3.jpg", ["Drama", "Romance"], 8.3],
     [4, "Kiss x Sis", 2008, "May 2023", 12, "https://m.media-amazon.com/images/M/MV5BMDE5NWM4MDAtZjk4Yi00ODc0LTk0OTItNTdhOGU3YTUxYTUzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg", ["school", "Comedy", "Harem"], 5.2],
     [5, "High school DxD", 2012, "May 2023", 55, "https://m.media-amazon.com/images/M/MV5BYjhlYWI2MGUtNjk4ZS00OWJjLWJiZTEtYWYxNTY5MzVhYzI0XkEyXkFqcGdeQXVyNDgyODgxNjE@._V1_.jpg", ["Action", "Magic", "School", "Comedy", "Supernatural", "Harem"], 9],
     [6, "Domestic Girlfriend", 2019, "June 2023", 12, "https://m.media-amazon.com/images/M/MV5BM2RmZmI2NmUtNDhjMi00MGQ4LWIyYTEtZmMxM2E1ZjBkYTU0XkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_FMjpg_UX1000_.jpg", ["Drama", "School", "Harem"], 3.2],
